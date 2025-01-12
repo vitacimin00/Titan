@@ -14,7 +14,7 @@ fi
 id="A126F50A-744C-4007-A1A8-7256CAEA7BEB"
 echo -e "${GREEN}Using identity code: $id${NC}"
 
-storage_gb=25
+storage_gb=10
 start_port=$((RANDOM % 9000 + 1000)) # Generate random 4-digit port
 container_count=1
 
